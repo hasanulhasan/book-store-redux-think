@@ -26,6 +26,24 @@
       "rating": 4,
       "featured": true,
       "id": 4
+    },
+    {
+      "name": "Himu Rimande",
+      "author": "Sayed ulaiullah",
+      "thumbnail": "https://m.media-amazon.com/images/I/51Ga5GuElyL._SX331_BO1,204,203,200_.jpg",
+      "price": "499",
+      "rating": "4",
+      "featured": true,
+      "id": 5
+    },
+    {
+      "name": "Himu Rimande",
+      "author": "Sayed ulaiullah",
+      "thumbnail": "https://m.media-amazon.com/images/I/51Ga5GuElyL._SX331_BO1,204,203,200_.jpg",
+      "price": "499",
+      "rating": "4",
+      "featured": true,
+      "id": 6
     }
   ]
 }

@@ -1,12 +1,11 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { added } from '../redux/Books/action';
+import addBooks from '../Thank/addBooks';
 
 const AddBook = () => {
   const filters = useSelector(state => state.filters);
   const { editedBook } = filters;
-  console.log(editedBook)
-  console.log(editedBook.length === 0)
   const dispatch = useDispatch();
 
   const handleAddBook = (e) => {
@@ -19,7 +18,7 @@ const AddBook = () => {
     const rating = form.rating.value;
     const featured = form.featured.checked;
     const book = { name, author, thumbnail, price, rating, featured }
-    dispatch(added(book));
+    dispatch(addBooks(book));
     form.reset();
     console.log(book);
   }
