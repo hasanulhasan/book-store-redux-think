@@ -2,33 +2,6 @@ import { ADDED, DELETED, EDITED, LOADED } from "./actionTypes";
 
 
 const initialState = [
-  {
-    id: 1,
-    name: "Slow Horses (Deluxe Edition)",
-    author: "Mick Herron",
-    thumbnail: "https://m.media-amazon.com/images/I/51Ga5GuElyL._SX331_BO1,204,203,200_.jpg",
-    price: 14,
-    rating: 3,
-    featured: false
-  },
-  {
-    id: 2,
-    name: "Abong Himu",
-    author: "Mick Herron",
-    thumbnail: "https://m.media-amazon.com/images/I/51Ga5GuElyL._SX331_BO1,204,203,200_.jpg",
-    price: 14,
-    rating: 4,
-    featured: true
-  },
-  {
-    id: 3,
-    name: "Kishor alo",
-    author: "Mick Herron",
-    thumbnail: "https://m.media-amazon.com/images/I/51Ga5GuElyL._SX331_BO1,204,203,200_.jpg",
-    price: 14,
-    rating: 2,
-    featured: true
-  }
 ]
 
 const nextTodoId = (todos) => {

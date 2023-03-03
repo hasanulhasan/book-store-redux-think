@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { statusChanged } from '../redux/Filter/action';
+import fetchBooks from '../Thank/fetchBooks';
 import AddBook from './AddBook';
 import Books from './Books';
 
@@ -9,7 +10,11 @@ const Home = () => {
   const filters = useSelector(state => state.filters);
   const { status, searchText } = filters;
   const dispatch = useDispatch();
-  console.log(searchText)
+  // console.log(searchText)
+
+  useEffect(() => {
+    dispatch(fetchBooks)
+  }, [dispatch])
 
   const handleStatusChanged = (status) => {
     dispatch(statusChanged(status))
