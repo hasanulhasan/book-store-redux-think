@@ -29,21 +29,12 @@
     },
     {
       "name": "Himu Rimande",
-      "author": "Sayed ulaiullah",
-      "thumbnail": "https://m.media-amazon.com/images/I/51Ga5GuElyL._SX331_BO1,204,203,200_.jpg",
-      "price": "499",
-      "rating": "4",
+      "author": "Humayun Ahmed",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BYWE3ZDUwZjYtZWVkNS00YmY5LWIwZDQtZWUyMDcwOTE5NjY4XkEyXkFqcGdeQXVyNTg1NDA1NDc@._V1_.jpg",
+      "price": "245",
+      "rating": "5",
       "featured": true,
       "id": 5
-    },
-    {
-      "name": "Himu Rimande",
-      "author": "Sayed ulaiullah",
-      "thumbnail": "https://m.media-amazon.com/images/I/51Ga5GuElyL._SX331_BO1,204,203,200_.jpg",
-      "price": "499",
-      "rating": "4",
-      "featured": true,
-      "id": 6
     }
   ]
 }

@@ -1,7 +1,5 @@
 import { added } from "../redux/Books/action";
 
-
-
 const addBooks = (book) => {
   return async (dispatch) => {
     const response = await fetch('http://localhost:9000/books', {
